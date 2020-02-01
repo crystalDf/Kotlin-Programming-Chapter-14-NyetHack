@@ -12,6 +12,10 @@ fun main(args: Array<String>) {
     val inebriationStatus = player.castFireball(5)
 
     println("Inebriation Status: $inebriationStatus")
+
+    var currentRoom = TownSquare()
+    println(currentRoom.description())
+    println(currentRoom.load())
 }
 
 private fun printFormattedPlayerStatus(
